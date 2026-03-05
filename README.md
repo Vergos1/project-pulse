@@ -1,37 +1,64 @@
-# Mantine Next.js template
+# Project Pulse
 
-This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
-If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).
+Next.js + Mantine starter template with Storybook, Jest and full code quality setup.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![Mantine](https://img.shields.io/badge/Mantine-339AF0?style=flat&logo=mantine&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
+![Storybook](https://img.shields.io/badge/Storybook-FF4785?style=flat&logo=storybook&logoColor=white)
+
+## About
+
+Project Pulse is a production-ready Next.js starter template built on top of Mantine UI. It includes a complete development setup — Storybook for component documentation, Jest with React Testing Library for unit tests, and a full code quality pipeline with ESLint, Stylelint and Prettier.
 
 ## Features
 
-This template comes with the following features:
+- **Next.js App Router** — server-side rendering with Next.js 14
+- **Mantine UI** — component library with dark/light/auto color scheme toggle
+- **Storybook** — component development and documentation environment
+- **Jest + React Testing Library** — unit and component testing setup
+- **TypeScript** — full type safety
+- **ESLint** — Airbnb + Mantine config
+- **Stylelint** — CSS/SCSS linting
+- **Prettier** — code formatting
+- **Bundle Analyzer** — production bundle size analysis
 
-- [PostCSS](https://postcss.org/) with [mantine-postcss-preset](https://mantine.dev/styles/postcss-preset)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Storybook](https://storybook.js.org/)
-- [Jest](https://jestjs.io/) setup with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+## Tech Stack
 
-## npm scripts
+| Technology | Purpose |
+|---|---|
+| Next.js 14 | React framework |
+| TypeScript | Type safety |
+| Mantine UI | Component library |
+| Storybook | Component documentation |
+| Jest | Unit testing |
+| React Testing Library | Component testing |
+| ESLint | Code linting |
+| Stylelint | Style linting |
+| Prettier | Code formatting |
+| Yarn 4 | Package manager |
 
-### Build and dev scripts
+## Getting Started
 
-- `dev` – start dev server
-- `build` – bundle application for production
-- `analyze` – analyzes application bundle with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+```bash
+# Install dependencies
+yarn install
 
-### Testing scripts
+# Start development server
+yarn dev
 
-- `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
-- `prettier:check` – checks files with Prettier
-- `jest` – runs jest tests
-- `jest:watch` – starts jest watch
-- `test` – runs `jest`, `prettier:check`, `lint` and `typecheck` scripts
+# Build for production
+yarn build
 
-### Other scripts
+# Run tests
+yarn test
 
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
+# Start Storybook
+yarn storybook
+```
+
+## Author
+
+Developed by **Ihor Yanchuk**
+[Portfolio](https://github.com/Vergos1) · [GitHub](https://github.com/Vergos1)
